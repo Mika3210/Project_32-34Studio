@@ -11,8 +11,8 @@
 ***
 `Цель сайта`: предоставить людям информацию о парикмахерской и возможность записаться на сеанс, а также приобрести фирменную продукцию.
 ## ***Главная страница*** 
-![Главная страница](https://github.com/Mika3210/32-34Studio/blob/main/Макеты/гл%20стр.png)
+![Главная страница](https://github.com/Mika3210/Project_32-34Studio/blob/main/Макеты/гл%20стр.png)
 ## ***Прайс-лист*** 
-![Прайс-лист](https://github.com/Mika3210/32-34Studio/blob/main/Макеты/прайс.png)
+![Прайс-лист](https://github.com/Mika3210/Project_32-34Studio/blob/main/Макеты/прайс.png)
 ## ***Магазин*** 
-![Магазин](https://github.com/Mika3210/32-34Studio/blob/main/Макеты/магазин.png)
+![Магазин](https://github.com/Mika3210/Project_32-34Studio/blob/main/Макеты/магазин.png)
