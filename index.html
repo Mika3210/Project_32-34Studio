@@ -1,125 +1,130 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Парикмахерская "32/34 Studio"</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/cssfamily=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
+	<link rel="stylesheet" href="css/normalize.css">
 </head>
 
-<body>
+<body class="page-body">
 
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="main-navigation">
+           <a class="main-header-logo">
             <img src="!!!!" width="368" height="153" alt="Логотип парикмахерской 32/34 Studio">
-            <ul>
-                <li><a href="blank.html">Информация</a></li>
-                <li><a href="blank.html">Новости</a></li>
-                <li><a href="price.html">Прайс-лист</a></li>
-                <li><a href="catalog.html">Магазин</a></li>
-                <li><a href="blank.html">Контакты</a></li>
-            </ul>
-            <a href="black.html">Вход</a>
+                <ul class="site-navigation">
+                    <li><a href="blank.html">Информация</a></li>
+                    <li><a href="blank.html">Новости</a></li>
+                    <li><a href="price.html">Прайс-лист</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+                    <li><a href="blank.html">Контакты</a></li>
+                </ul>
+            <a class="login-link" href="black.html">Вход</a>
+            </a>
         </nav>
     </header>
 
-    <main>
+    <main class="container">
         <h1>Парикмахерская "32/34 Studio"</h1>
 
-        <section>
+        <section class="features">
             <h2>Преимущества</h2>
-            <ul>
-                <li>
-                    <h3>ФФФ</h3>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <h3>ФФФыыы</h3>
                     <p>фывыавамвафав</p>
                 </li>
-                <li>
+                <li class="feature-item">
                     <h3>ыыы</h3>
                     <p>паврорвонв</p>
                 </li>
-                <li>
+                <li class="feature-item">
                     <h3>ррр</h3>
                     <p>фпвпииы</p>
                 </li>
             </ul>
         </section>	
 
-        <section>
+        <section class="news">
             <h2>Новости</h2>
-            <ul>
-                <li>
+            <ul class="news-list">
+                <li class="news-item">
                     <p>Ура ура ура</p>
                     <time datetime="2021-03-25">25 марта</time>
                 </li>
-                <li>
+                <li class="news-item">
                     <p>Начали писать сайтик</p>
                     <time datetime="2020-03-30">30 марта</time>
                 </li>
             </ul>
-            <a href="blank.html">Все новости</a>
+            <a class="button" href="blank.html">Все новости</a>
         </section>	
 
-        <section>
+        <section class="gallery">
             <h2>Галерея</h2>
-            <figure>
+            <figure class="gallery-content">
                 <a href="#">
                     <img src="!!!" width="286" height="164" alt="Что-то">
                 </a>
             </figure>
-            <button type="button" disabled>Назад</button>
-            <button type="button">Вперед</button>
+            <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+            <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
         </section>
 
-        <section>
+        <section class="contacts">
             <h2>Контактная информация</h2>
             <p>
                 Парикмахерская "32/34 Studio"<br>
-                Адрес: г. Москва, ул. Садовая, д. 3<br>
-                Телефон: <a href="tel:+79999999999">+7 999 999-99-99</a>
+                Адрес: г. Москва, ул. Большая Садовая, д. 3<br>
+                Телефон: <a class="contacts-phone" href="tel:+79999999999">+7 999 999-99-99</a>
             </p>
             <p>
                 Время работы:<br>
                 пн-пт: с 10:00 до 21:00<br>
                 сб-вс: с 10:00 до 19:00
             </p>
-            <a href="blank.html">Как добраться</a>
-            <a href="blank.html">Обратная связь</a>
+            <a class="button" href="blank.html">Как добраться</a>
+            <a class="button" href="blank.html">Обратная связь</a>
         </section>
 
-        <section>
+        <section class="appointment">
             <h2>Записаться</h2>
-            <p>Укажите желаемую дату и время и мы свяжемся с вами
+            <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами
             для подтверждения брони</p>
             <!-- Форма записи -->
         </section>
 
     </main>	
 
-    <footer>
-        <section>
+    <footer class="page-footer main-footer">
+        <section class="footer-contacts">
             <h2>Как нас найти</h2>
             <p>
                 Парикмахерская "32/34 Studio"<br>
                 Адрес: г. Москва, ул. Садовая, д. 3<br>
-                <a href="blank.html">Как нас найти?</a><br>
-                Телефон: <a href="tel:+79999999999">+7 999 999-99-99</a>
+                <a class="footer-address" href="blank.html">Как нас найти?</a><br>
+                Телефон: <a class="footer-phone" href="tel:+79999999999">+7 999 999-99-99</a>
             </p>
         </section>
 
-        <p>
+        <p class="footer-copyright">
             Разработано:
+            <a class="button" href="">Cтуденты группы ИНБО-01-19 Курносова и Ивачкина</a>
         </p>
     </footer>
 
-    <section>
+    <section class="modal modal-login">
         <h2>Личный кабинет</h2>
-        <p>Введите, пожалуйста, свой логин и пароль</p>
+        <p class="modal-description">Введите, пожалуйста, свой логин и пароль</p>
         <!-- Форма логина -->
-        <button type="button">Закрыть</button>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
 
-    <section>
+    <section class="modal modal-map">
         <h2>Как до нас добраться?</h2>
         <!-- Карта -->
-        <button type="button">Закрыть</button>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>	
 
 </body>
