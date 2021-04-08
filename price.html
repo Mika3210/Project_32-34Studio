@@ -1,10 +1,155 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Парикмахерская "32/34 Studio"</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="page-body">
+
+ <header class="main-header">
+        <nav class="main-navigation">
+           <a class="main-header-logo">
+            <img src="img/3234 Studio.png" width="368" height="153" alt="Логотип парикмахерской 32/34 Studio">
+            </a>
+            <div class="main-header-bar">
+                <div class="main-navigator-wrapper">
+                   <div class="container">
+                       <ul class="site-navigation">
+                            <li><a href="blank.html">Информация</a></li>
+                            <li><a href="blank.html">Новости</a></li>
+                            <li><a href="price.html">Прайс-лист</a></li>
+                            <li><a href="catalog.html">Магазин</a></li>
+                            <li><a href="blank.html">Контакты</a></li>
+                        </ul>
+                        <div class="user-navigation">
+                            <a class="login-link" href="login.html">Вход</a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main class="page-price container">
+
+  <h1 class="page-title">Прайс-лист</h1>
+
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Главная</a></li>
+    <li class="breadcrumbs-current">Прайс-лист</li>
+  </ul>
+  
+  <section class="inner-content">
+    <h2 class="big-heading">Стрижки</h2>
+
+    <div class="inner-columns">
+      <div class="inner-column-left">
+
+        <h3>Мы используем только<br>лучшие средства:</h3>
+        
+        <ul class="custom-list-1">
+            <li>CP-1</li>
+            <li>Mr.Natty</li>
+            <li>Borodist</li>
+            <li>Barbaro</li>
+        </ul>
+
+      </div>
+      <div class="inner-column-right">
+
+        <h3>Цены на услуги<br>наших мастеров:</h3>
+        
+        <table class="custom-table-1">
+        <tr>
+            <td>Стрижка</td>
+            <td>1500 p.</td>
+        </tr>
+        <tr>
+            <td>Укладка</td>
+            <td>1000 р.</td>
+        </tr>
+        <tr>
+            <td>Окрашивание</td>
+            <td>5000 р.</td>
+        </tr>
+        </table>
+
+      </div>
+    </div>
+    <div class="inner-columns">
+
+      <h3>Несколько слов о нас:</h3>
+
+      <div class="inner-column-left">
+
+        <p>Наша парикмахерская занимается женскими и мужскими стрижками. Стрижка каждого клиента для нас — это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+
+      </div>
+      <div class="inner-column-right">
+
+        <p>Наша мастерская расположена в центре Москвы, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="page-footer main-footer">
+       <div class="container">
+           <section class="footer-contacts">
+            <h2 class="visually-hidden">Как нас найти</h2>
+            <p>
+                Парикмахерская "32/34 Studio"<br>
+                Адрес: г. Москва, ул. Большая Садовая, д. 3<br>
+                <a class="footer-address" href="blank.html">Как нас найти?</a><br>
+                Телефон: <a class="footer-phone" href="tel:+79999999999">+7 999 999-99-99</a>
+            </p>
+        </section>
+
+        <p class="footer-copyright">
+            <b>Разработано: Cтудентками Курносовой Е. и Ивачкиной Т.</b>
+        </p>
+       </div>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p class="modal-description">Введите, пожалуйста, свой логин и пароль</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label class="visually-hidden" for="login-login">Логин</label>
+              <input class="login-icon-user" id="login-login" type="email" name="login" placeholder="email@example.com"/>
+            </p>
+            <p>
+              <label class="visually-hidden" for="login-password">Пароль</label>
+              <input class="login-icon-password" id="login-password" type="password" name="password" placeholder="••••••••"/>
+            </p>
+            <p class="login-help">
+              <label class="login-checkbox">
+                <input class="visually-hidden" type="checkbox" name="remember" />
+                <span class="checkbox-indicator"></span>
+                Запомните меня
+              </label>
+              <a class="restore" href="#">Я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">Войти</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-map">
+        <h2>Как до нас добраться?</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.489014846155!2d37.58989521577008!3d55.7673782805572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a397f57f39d%3A0xce12e1202daae23d!2z0JHQvtC70YzRiNCw0Y8g0KHQsNC00L7QstCw0Y8g0YPQuy4sIDMsINCc0L7RgdC60LLQsCwgMTIzMDAx!5e0!3m2!1sru!2sru!4v1617819346582!5m2!1sru!2sru"
+                width="600" height="450" width="766" height="560" allowfullscreen title="Офис компании по адресу ул. Большая Садовая 3, Москва"></iframe>
+        <!-- Карта -->
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>	
+
 </body>
-</html>
+</html>	
